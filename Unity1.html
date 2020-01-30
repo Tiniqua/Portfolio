@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Unity Project - Survival</title>
+        <link href="styles/desktop.css" rel="stylesheet" media="only screen and (min-width : 600px)">        
+    </head>
+
+    <body>
+        <section id="Main">
+            <nav id="NavBar">
+                <div class="links">
+                    <a class="NavLink" href="main.html">Sam Spawton - Game Programmer</a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="NavLink" href="main.html">Portfolio</a></li>
+                        <li><a class="NavLink" href="main.html">Resumé</a></li>
+                        <li><a class="NavLink" href="main.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section id="Showcase">
+            <section class="Snake">
+                <section class="title">
+                    <p>Unity Survival Game</p>                    
+                </section>
+                <section class="Content" style="background-image: url('images/UnitySurvivalBG.png');">
+                    <div class="images">
+                        <img class="images" src="images/UnitySurvival1.PNG" alt="Unity Survival Game Screenshot" border="4px"></a></div>
+                        <p><img class="images" src="images/UnitySurvival2.PNG" alt="Unity Survival Game Screenshot" border="4px"></a></div></p>
+                    </div>                 
+                </section>
+
+                <section class="SiteText">
+                    <p>Github Link To Project </p>
+                    <p><a href="https://github.com/Tiniqua/UnitySurvival"><img src="images/Github.png"></a></p>         
+                    <p>
+                        Towards the end of my first year I was given an assignment to develop a solo project in Unity, the project had 
+                        to feature a survival aspect so I tackled it by creating evil killer robot drones that chase after the player at 
+                        a massively increasing rate. The robots spawn more frequently the longer the player takes to find all of the access
+                        points required to get into the end teleportation room to escape. I accomplished this by setting some invisible spawn 
+                        points that are stored in a prefab array, each tick a random spawn point is selected and a drone is spawned with 
+                        player tracking movement - it then navigates the terrain through a navmesh to chase after the player.. killing them 
+                        on contact.
+                    </p>          
+                </section>
+            </section>
+        </section>
+    </body>
+
+    <footer>
+        <section class="SiteText">
+            <p>© Sam Spawton 2019</p>
+        </section>
+    </footer>
+</html>
