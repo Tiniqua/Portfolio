@@ -33,6 +33,7 @@
 	opacity: .9;
 	top: 50%;
 	padding: 8px;
+	width: 80%;
 }
 
 .imageSize{
@@ -47,6 +48,7 @@
 
 #Portfolio{
 	margin-top: 80px;
+	width: 100%;
 }
 
 #Showcase{
@@ -54,7 +56,6 @@
 }
 
 body{
-	background-image: url("images/background.JPG");
 	margin: 0;
 	padding: 0;
 	background-color: rgb(26, 25, 25);
@@ -93,12 +94,12 @@ td{
 	padding: 20px;
 }
 
-
 .box{
 	color: white;
 	text-decoration: none;
 	font-size: 30px;
 	padding: 16px;
+	width: 100%;
 	font-family: Sans-serif;
 	text-align: center;
 	border:2px solid #45a29e;
@@ -121,7 +122,7 @@ td{
 }
 
 .images{
-	display: inline-block;	
+	display: inline-block;
 }
 
 .Content{
@@ -129,8 +130,6 @@ td{
 	color: #66FCF1;
 	text-decoration: none;
 	font-size: 32px;
-	padding-left: 200px;
-	padding-right: 200px;
 	font-family: Sans-serif;
 	text-align: center;
 	width: 80%;
