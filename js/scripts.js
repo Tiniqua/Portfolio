@@ -8,3 +8,4 @@ function toggle(){
         x.style.display = "none";
     }
 }
+

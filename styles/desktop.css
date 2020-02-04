@@ -280,6 +280,7 @@ button:hover{
 }
 
 .dropDown{
+	transition: 0.2s;
 	padding: 0 18px;
   	background-color: white;
   	display: none;
