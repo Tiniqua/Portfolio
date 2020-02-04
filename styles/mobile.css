@@ -104,7 +104,7 @@ td{
 	border:2px solid #45a29e;
 }
 
-.Snake{
+.project{
 	color: white;
 	text-decoration: none;
 	font-size: 30px;
@@ -113,57 +113,6 @@ td{
 	text-align: center;
 	border:2px solid #45a29e;
 }
-
-.Bunker{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.Puzzle{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.PZ{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.UnrealWeapon{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.DeliveryGame{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
 
 .box.title{
 	background-color: rgb(43, 42, 42);
