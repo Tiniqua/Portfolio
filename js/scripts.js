@@ -9,3 +9,13 @@ function toggle(){
     }
 }
 
+/*not working */
+function embolden(x) {
+  x.style.fontweight = 'bold';
+  x.style.fontweight = 'bold';
+}
+
+function normal(x) {
+  x.style.fontweight = 'normal';
+  x.style.fontweight = 'normal';
+}
