@@ -74,8 +74,12 @@ body{
 	text-decoration: underline;
 }
 
+.navBarName{
+	float:left;
+}
+
 .links{
-	display: inline-block;
+	float: right;
 }
 
 ul{
@@ -254,4 +258,30 @@ footer{
 	font-family: Sans-serif;
 	text-align: center;
 	border:2px solid #45a29e;
+}
+
+button{
+	border-top:2px solid #c5c6c7;
+	border-bottom:none;
+	border-left: none;
+	border-right: none;
+	background-color: rgb(145, 144, 144);
+	color: #444;
+  	cursor: pointer;
+ 	padding: 18px;
+  	width: 100%;
+	text-align: center;
+	font-size: 16px;
+  	transition: 0.4s;
+}
+
+button:hover{
+	background-color: rgb(26, 25, 25);
+}
+
+.dropDown{
+	padding: 0 18px;
+  	background-color: white;
+  	display: none;
+	overflow: hidden;
 }

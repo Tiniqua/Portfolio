@@ -5,13 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contract Work</title>
         <link href="styles/desktop.css" rel="stylesheet" media="only screen and (min-width : 600px)">        
+        
     </head>
 
     <body>
         <section id="Main">
             <nav id="NavBar">
-                <div class="links">
-                    <a class="NavLink" href="index.html">Sam Spawton - Game Programmer</a>
+                <div class="navBarName">
+                    <ul>
+                        <li>
+                            <a class="NavLink" href="index.html">Sam Spawton - Game Programmer</a>
+                        </li>                        
+                    </ul>                    
                 </div>
                 <div class="links">
                     <ul>
@@ -37,15 +42,18 @@
                 <section class="SiteText">
                     <section class="title">
                         <p>Project Zomboid Website</p>                  
-                        <p><a href="https://projectzomboid.com/"><img src="images/pzicon.png"></a></p>         
-                        <p>
-                        Over the last few months I have been working with The Indie Stone doing part time contracting on quality
-                        of life bugs, fixes and changes to support the development. This experience is one of the most amazing 
-                        feelings - seeing my work impact a game with such an amazing community leaves me speechless. My work for
-                        them is done around my university hours and by doing it I am building up invaluable experience working 
-                        to industry standards using languages like Java and Lua that are not taught through university. The game
-                        is amazing and I would recommend everyone going over to their website and checking it out!
-                        </p>  
+                        <p><a href="https://projectzomboid.com/"><img src="images/pzicon.png"></a></p>    
+                        <button onclick="toggle()">Info</button>      
+                        <div id="dropDown">
+                            <p>
+                                Over the last few months I have been working with The Indie Stone doing part time contracting on quality
+                                of life bugs, fixes and changes to support the development. This experience is one of the most amazing 
+                                feelings - seeing my work impact a game with such an amazing community leaves me speechless. My work for
+                                them is done around my university hours and by doing it I am building up invaluable experience working 
+                                to industry standards using languages like Java and Lua that are not taught through university. The game
+                                is amazing and I would recommend everyone going over to their website and checking it out!
+                            </p> 
+                        </div>  
                     </section>        
                 </section>
             </section>
@@ -57,4 +65,5 @@
             <p>© Sam Spawton 2019</p>
         </section>
     </footer>
+    <script src="js/scripts.js"></script>
 </html>
