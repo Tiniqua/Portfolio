@@ -35,7 +35,7 @@
 	padding: 8px;
 }
 
-.slideshow{
+.imageSize{
 	height: 300px;
 	width: 600px;
 	border:1px solid #c5c6c7;
@@ -63,7 +63,7 @@ body{
 .NavLink{
 	color: #66FCF1;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 1em;
 	padding: 16px;
 	font-family: Sans-serif;
 	text-align: center;
@@ -94,7 +94,7 @@ td{
 }
 
 
-.Professional{
+.box{
 	color: white;
 	text-decoration: none;
 	font-size: 30px;
@@ -164,27 +164,8 @@ td{
 	border:2px solid #45a29e;
 }
 
-.Projects{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
 
-.Resumé{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.title{
+.box.title{
 	background-color: rgb(43, 42, 42);
 	border:2px solid #c5c6c7;
 	width: 100%;
@@ -217,35 +198,6 @@ td{
 	text-align: center;
 }
 
-.Skills{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.Education{
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
-
-.Contact{
-	color: white; 
-	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-	border:2px solid #45a29e;
-}
 
 footer{
 	color: white; 
