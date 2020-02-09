@@ -9,9 +9,19 @@
 	text-align: center;
 }
 
+.NavLink{
+	color: #66FCF1;
+	text-decoration: none;
+	font-size: 1em;
+	padding: 16px;
+	font-family: Sans-serif;
+	text-align: center;
+}
+
+
 .imageSize{
-	height: 300px;
-	width: 600px;
+	height: auto;
+	width: 80%;
 	border:1px solid #c5c6c7;
 	margin-left: auto;
 	margin-right: auto;
@@ -37,19 +47,6 @@ body{
 	width: 100%;
 }
 
-.NavLink{
-	color: #66FCF1;
-	text-decoration: none;
-	font-size: 2em;
-	padding: 16px;
-	font-family: Sans-serif;
-	text-align: center;
-}
-
-.NavLink:hover{
-	color: #45a29e;
-	text-decoration: underline;
-}
 
 .links{
 	display: inline-block;
@@ -64,7 +61,7 @@ ul li{
 }
 
 tr{
-	float :left ;
+	float :left;
 }
 
 td{

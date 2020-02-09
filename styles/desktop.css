@@ -29,4 +29,15 @@
 	width: 100%;
 }
 
+.imageSize{
+	height: 300px;
+	width: 600px;
+	border:1px solid #c5c6c7;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.NavLink:hover{
+	color: #45a29e;
+	text-decoration: underline;
+}
