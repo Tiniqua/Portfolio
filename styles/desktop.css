@@ -2,9 +2,8 @@
 	position: relative;
 	border:1px solid rgb(145, 144, 144);
 	transition: 0.5s;
-	width: auto;
+	width: 100%;
 }
-
 
 .textoverimage:after{
 	position: absolute;
@@ -28,6 +27,8 @@
 	padding: 8px;
 	width: 100%;
 }
+
+
 
 .imageSize{
 	height: 300px;

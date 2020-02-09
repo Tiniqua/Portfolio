@@ -29,6 +29,10 @@
 
 .zomboid{
 	border:2px solid #c5c6c7;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30em;
+	width: 60em;
 }
 
 #Portfolio{
@@ -41,7 +45,10 @@
 }
 
 body{
-	background-color: rgb(26, 25, 25);	
+	margin: 0;
+	padding: 0;
+	background-color: rgb(26, 25, 25);
+	
 }
 
 
