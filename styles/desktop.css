@@ -24,7 +24,7 @@
 
 .textoverimage:hover:after{
 	opacity: .9;
-	top: 50%;
+	top: 75%;
 	padding: 8px;
 	width: 100%;
 }
