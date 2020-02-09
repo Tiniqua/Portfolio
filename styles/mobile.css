@@ -6,49 +6,23 @@
 	width: 100%; 
 	height: auto;
 	top: 0;
-}
-
-.textoverimage{
-	position: relative;
-	border:1px solid rgb(145, 144, 144);
-	transition: 0.5s;
-}
-
-.textoverimage:after{
-	position: absolute;
-	top: 100%;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	word-wrap: break-word;
-	overflow: hidden;
-	background-color: rgba(0,0,0,0.6);
-	color: #66FCF1;
-	padding: 0 8px;
-	opacity: .1;
-	content:attr(data-text);
-	transition: 0.5s;
-}
-
-.textoverimage:hover:after{
-	opacity: .9;
-	top: 50%;
-	padding: 8px;
-	width: 80%;
+	text-align: center;
 }
 
 .imageSize{
 	height: 300px;
 	width: 600px;
 	border:1px solid #c5c6c7;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .zomboid{
-	border:2px solid c5c6c7;
+	border:2px solid #c5c6c7;
 }
 
 #Portfolio{
-	margin-top: 80px;
+	margin-top: 6em;
 	width: 100%;
 }
 
@@ -60,12 +34,13 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: rgb(26, 25, 25);
+	width: 100%;
 }
 
 .NavLink{
 	color: #66FCF1;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 2em;
 	padding: 16px;
 	font-family: Sans-serif;
 	text-align: center;
@@ -85,67 +60,68 @@ ul{
 }
 
 ul li{
-	display: inline;
+	display: inline-block;
 }
 
 tr{
-	float :left;
+	float :left ;
 }
+
 td{
 	padding: 20px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	width: 100%;
+	font-family: Sans-serif;
+	text-align: center;
+	border:2px solid #45a29e;	
 }
 
 .box{
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
-	padding: 16px;
 	width: 100%;
 	font-family: Sans-serif;
 	text-align: center;
 	border:2px solid #45a29e;
+}
+
+.SiteText{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Sans-serif;
+	text-align: center;
+	border:2px solid #45a29e;
+	margin-left: auto;
+	margin-right: auto;	
+	padding: 2em;	
 }
 
 .project{
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
 	padding: 16px;
 	font-family: Sans-serif;
 	text-align: center;
 	border:2px solid #45a29e;
 }
 
-.box.title{
-	background-color: rgb(43, 42, 42);
-	border:2px solid #c5c6c7;
-	width: 100%;
-}
+
 
 .images{
 	display: inline-block;
 }
 
-.Content{
-	border:2px solid #c5c6c7;
-	color: #66FCF1;
-	text-decoration: none;
-	font-size: 32px;
-	font-family: Sans-serif;
-	text-align: center;
-	width: 80%;
-}
-
-.SiteText{
-	border:2px solid #c5c6c7;
-	color: white;
-	text-decoration: none;
-	font-size: 16px;
-	padding-left: 200px;
-	padding-right: 200px;
-	font-family: Sans-serif;
-	text-align: center;
-}
 
 
 footer{
