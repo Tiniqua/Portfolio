@@ -140,6 +140,7 @@ function setup(){
 };
 
 window.addEventListener('keydown',((evt) => {
+  evt.preventDefault();
   const direction = evt.key.replace('Arrow','')
   snake.changeDirection(direction);
 }))
