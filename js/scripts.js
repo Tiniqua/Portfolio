@@ -9,7 +9,7 @@ function toggle(){
     }
 }
 
-/*not working */
+// not working
 function embolden(x) {
   x.style.fontweight = 'bold';
   x.style.fontweight = 'bold';
@@ -27,6 +27,8 @@ const context = canvas.getContext("2d");
 const scale = 10;
 const rows = canvas.height / scale;
 const columns = canvas.width / scale;
+var score = 0;
+
 
 
 // Snake
@@ -44,6 +46,8 @@ function Snake()
 
   this.draw = function(){
     context.fillStyle = "#000000";
+    context.font = "20px Arial";
+    context.fillText(score,canvas.height, canvas.width/2)
 
     for(let i=0; i<this.tail.length; i++)
     {      
@@ -113,7 +117,7 @@ function Snake()
   }
 }
 
-// Draw
+// Setup Draw
 
 function setup(){
   snake = new Snake();
@@ -129,6 +133,7 @@ function setup(){
     if(snake.eat(pill))
     {
       pill.pickLocation();
+      snake.score++;
     }
 
   },250);
