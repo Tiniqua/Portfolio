@@ -26,13 +26,6 @@
 	margin-right: auto;
 }
 
-.zomboid{
-	margin-left: auto;
-	margin-right: auto;
-	height: 30em;
-	width: 60em;
-}
-
 #Portfolio{
 	margin-top: 6em;
 	width: 100%;
@@ -84,18 +77,15 @@ table{
 	text-decoration: none;
 	font-size: 1.5em;
 	width: 100%;
-	font-family: Sans-serif;
-	text-align: center;
 	border:2px solid #45a29e;	
 }
 
 .box{
-	color: white;
 	text-decoration: none;
-	width: auto;
+	width: 100%;
 	font-family: Sans-serif;
 	text-align: center;
-	border:2px solid #45a29e;
+	border:0.1em solid #45a29e;
 }
 
 .SiteText{
@@ -113,10 +103,11 @@ table{
 .project{
 	color: white;
 	text-decoration: none;
-	padding: 16px;
+	font-size: 1.5em;
+	width: 100%;
 	font-family: Sans-serif;
 	text-align: center;
-	border:2px solid #45a29e;
+	border:2px solid #45a29e;	
 }
 
 .images{
