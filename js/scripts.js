@@ -1,3 +1,65 @@
+function openProjectPopup(title, brief, description, link, videoUrl) {
+  event.preventDefault();
+  var popup = document.getElementById('projectPopup');
+  var projectTitle = document.getElementById('projectTitle');
+  var projectBrief = document.getElementById('projectBrief');
+  var projectDescription = document.getElementById('projectDescription');
+  var projectLink = document.getElementById('projectLink');
+  var videoContainer = document.getElementById('videoContainer');
+
+  projectBrief.textContent = brief;
+  projectTitle.textContent = title;
+  projectDescription.textContent = description;
+
+  if (link) {
+    projectLink.href = link;
+    projectLink.style.display = 'inline'; // Show the link if a link is provided
+  } else {
+    projectLink.style.display = 'none'; // Hide the link if no link is provided
+  }
+
+  if (videoUrl) {
+    var videoElement = document.createElement('video');
+    videoElement.src = videoUrl;
+    videoElement.type = 'video/mp4';
+    videoElement.width = '640';
+    videoElement.height = '360';
+    videoElement.controls = true;
+    videoElement.autoplay = true;
+    videoElement.muted = true;
+    videoContainer.innerHTML = '';
+    videoContainer.appendChild(videoElement);
+  } else {
+    videoContainer.innerHTML = '';
+  }
+
+  popup.style.display = 'block';
+
+  // Delay registering the click event listener to close the popup
+  setTimeout(function() {
+    document.addEventListener('click', closePopupOutside);
+  }, 100);
+}
+
+
+function closeProjectPopup() {
+  event.preventDefault();
+  var popup = document.getElementById('projectPopup');
+  popup.style.display = 'none';
+
+  // Remove click event listener from document
+  document.removeEventListener('click', closePopupOutside);
+}
+
+function closePopupOutside(event) {
+  var popupContent = document.querySelector('.projectPopupContent');
+  var isClickInsidePopup = popupContent.contains(event.target);
+  if (!isClickInsidePopup) {
+      closeProjectPopup();
+  }
+}
+
+
 function toggle(){
     var x = document.getElementById("dropDown")
     if(x.style.display === "none")
